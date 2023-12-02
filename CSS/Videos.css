@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #3B3B3B;
+}
+
+#Ep .eps a {
+    display: block;
+    margin-bottom: 10px;
+    /* Ajuste conforme necessário para o espaçamento vertical desejado */
+}
