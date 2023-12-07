@@ -110,4 +110,30 @@ document.getElementById('selecao').addEventListener('change', function () {
         addEpisode('https://photos.google.com/share/AF1QipPX3DlY2hjwh9b4K2-W16EJPH3xa1ASxo592RvrON-ygqGR96-7UORKG7i9rmltaw/photo/AF1QipNjRPFoPVP_fIPt_w-e8nnURrH9EWosV1u91cfi?key=X0xmQkxZR2dvYlAyV2NIT2Y4UHVTNEhkTHlLb0Z3', 19);
         addEpisode('https://photos.google.com/share/AF1QipPX3DlY2hjwh9b4K2-W16EJPH3xa1ASxo592RvrON-ygqGR96-7UORKG7i9rmltaw/photo/AF1QipN5lBewvflguD5FD6-j9sJysen9ifEYTe9Jy_fk?key=X0xmQkxZR2dvYlAyV2NIT2Y4UHVTNEhkTHlLb0Z3', 20);
     }
+
+    /* TEMPORADA 6 */
+
+    else if (TEMPORADA === 'temporada6') {
+
+        addEpisode('https://drive.google.com/file/d/13ge0PWnG3FQlqdprrT1u25H8jvlG_eJx/view?t=29', 1)
+        addEpisode('https://drive.google.com/file/d/1OHZSCd3ZYwwR6pXZcHm2L2iPBsxqRj5H/view?usp=drive_link', 2)
+        addEpisode('https://drive.google.com/file/d/1YKgSrzIhLM8DT-52K6lSfUWI6kwPnaSP/view?usp=drive_link', 3)
+        addEpisode('https://drive.google.com/file/d/1g0vc2HiwFAtMeo6gS4G2n_HlSI-Gw1rO/view?usp=drive_link', 4)
+        addEpisode('https://drive.google.com/file/d/1DIY2wggxCZuBWiQ9NW695EXBduVNgcIP/view?usp=drive_link', 5)
+        addEpisode('https://drive.google.com/file/d/1uCbYPgJEg-8YA_IUAta8TcfUXTT4sMma/view?usp=drive_link', 6)
+        addEpisode('https://drive.google.com/file/d/1EpbxHFLTKoXAuWi6IDKArbvYORr1Yl21/view?usp=drive_link', 7)
+        addEpisode('https://drive.google.com/file/d/1ZQ4Z8iV59i2H3Ozxx8KC8GDK1YCdBwPp/view?usp=drive_link', 8)
+        addEpisode('https://drive.google.com/file/d/1S6e-caHQbkzpGiDckOFyS8lHH_9HtOCe/view?usp=drive_link', 9)
+        addEpisode('https://drive.google.com/file/d/1pIZ2khODFxlu9gW5h2QTSSf4WNi0BmEr/view?usp=drive_link', 10)
+        addEpisode('https://drive.google.com/file/d/1IJWO7vtutkbZX19BWAxkubqnz1ftqrG1/view?usp=drive_link', 11)
+        addEpisode('https://drive.google.com/file/d/10tTPHbKjl8q08TLUB6G5sGrViPg5KgHh/view?usp=drive_link', 12)
+        addEpisode('https://drive.google.com/file/d/1ZoZbhMEiyHUzerL2RfhYmosYlNoPYfqc/view?usp=drive_link', 13)
+        addEpisode('https://drive.google.com/file/d/1JPW6Y828loHKmBphLbXS0kzQcmDwkXiH/view?usp=drive_link', 14)
+        addEpisode('https://drive.google.com/file/d/13EbwgyWLxxDIrjPK-mPchoTHI-FruxQw/view?usp=drive_link', 15)
+        addEpisode('https://drive.google.com/file/d/134a5ChlRpMuCquIKQQXXz9A36F1qLpiY/view?usp=drive_link', 16)
+        addEpisode('https://drive.google.com/file/d/1_2jHIea4Wz8EyyJYRednyKUOOinYnWco/view?usp=drive_link', 17)
+        addEpisode('https://drive.google.com/file/d/1vX1CQ_DGSP9O8xp5PXD6VtRCpJ2rTVZs/view?usp=drive_link', 18)
+        addEpisode('https://drive.google.com/file/d/1VfArvEHtyEI3ARR69Hjo0s6Lz9fFild_/view?usp=drive_link', 19)
+        addEpisode('https://drive.google.com/file/d/1N1q47vyhW_O_AQKKQ-FTA4qoziekl9oG/view?usp=drive_link', 20)
+    }
 });
