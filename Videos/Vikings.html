@@ -7,16 +7,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="http://127.0.0.1:5501/CSS/Videos.css">
-    <title>Pobreflix / Vikings</title>
+    <title>Namastêflix / Vikings</title>
 </head>
 
 <body>
 
-    <!-- Capa -->
-    <img src="https://i.pinimg.com/originals/68/9e/cc/689ecc1d8d19c818bcd4f419cb9d0c63.jpg" alt="">
+    <div class="background-container"></div>
+
+    <!-- Trailer -->
+    <iframe width="1856" height="773" src="https://www.youtube.com/embed/9GgxinPwAGc?autoplay=1&showinfo=0&rel=0"
+        title="Vikings Season 1 Trailer" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
 
     <!-- Temporadas -->
-    <label for="selecao">Selecione uma temporada</label>
+    <label for="selecao">Selecione uma temporada:</label>
     <select id="selecao" name="selecao">
         <option value="">Temporadas</option>
         <option value="temporada1">Temporada 1</option>
@@ -29,7 +34,7 @@
     </select>
 
     <!-- Exibição dos episódios -->
-    <main id="Ep"></main>
+    <main id="episodios"></main>
     <script src="Vikings.js"></script>
 
 </body>

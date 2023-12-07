@@ -4,11 +4,55 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #3B3B3B;
+    position: relative;
 }
 
-#Ep .eps a {
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/b4c7f092-0488-48b7-854d-ca055a84fb4f/127386bd-018c-442b-8263-bb26b9b42f37/BR-pt-20231204-popsignuptwoweeks-perspective_alpha_website_large.jpg') center/cover no-repeat;
+    filter: blur(10px);
+    /* Ajuste o valor do desfoque conforme necessário */
+    content: "";
+    z-index: -1;
+}
+
+#episodios .eps a {
     display: block;
     margin-bottom: 10px;
+    padding-top: 20px;
+    color: #FE5000;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /* Ajuste conforme necessário para o espaçamento vertical desejado */
+}
+
+label {
+    color: white;
+    font-size: 2rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#selecao {
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #FE5000;
+    border: none;
+    margin-bottom: 50px;
 }

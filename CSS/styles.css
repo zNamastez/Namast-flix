@@ -2,13 +2,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #3B3B3B;
+    background-color: #202020;
 }
 
 /*Cabeçalho*/
 header {
     background-color: #202020;
-    color: #FE5000;
+    color: #fe3b00;
     text-align: center;
     padding: 1rem;
 }
