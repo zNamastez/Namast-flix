@@ -25,7 +25,7 @@ const VIDEOSDATA = [
 
     {
         /* Fire Country */
-        Titulo: 'Fire country',
+        Titulo: 'Fire Country',
         Imagem: 'https://th.bing.com/th/id/OIP.9qN-b1dR_eIsIBqtVjGWEAHaKu?rs=1&pid=ImgDetMain',
     }
 
