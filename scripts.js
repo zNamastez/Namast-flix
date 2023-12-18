@@ -21,11 +21,17 @@ const VIDEOSDATA = [
         /* O LOBO DE WALL STREET */
         Titulo: 'O Lobo de Wall Street',
         Imagem: 'https://th.bing.com/th/id/R.5fd274b4c3d71a9ea1f40c1b13ef7520?rik=qKf231rRKUc%2fRA&riu=http%3a%2f%2f2.bp.blogspot.com%2f-gWXOpIuXCLw%2fUzNVCBUVQ3I%2fAAAAAAAAF10%2fNpHk0ssmSSo%2fs1600%2flobo%2bde%2bwall%2bstreet%2bfrente.jpg&ehk=0xtsCOtqNHWiC6cYHmVhIplUWdfEPL8dDMX8wjXHiYA%3d&risl=&pid=ImgRaw&r=0',
+    },
+
+    {
+        /* Fire Country */
+        Titulo: 'Fire country',
+        Imagem: 'https://th.bing.com/th/id/OIP.9qN-b1dR_eIsIBqtVjGWEAHaKu?rs=1&pid=ImgDetMain',
     }
 
 ];
 
-/* FunÃ§Ã£o para exibir o card dos vÃ­does */
+/* Função para exibir o card dos vídoes */
 function DisplayVideos() {
     const VIDEOSCONTAINER = document.getElementById("Videos");
 
@@ -42,5 +48,5 @@ function DisplayVideos() {
     });
 }
 
-/* Chamar a funÃ§Ã£o quando carregar a pÃ¡gina */
+/* Chamar a função quando carregar a página */
 window.onload = DisplayVideos()
