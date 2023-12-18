@@ -34,6 +34,6 @@ document.getElementById('selecao').addEventListener('change', function () {
         addEpisode('https://sinalpublico.com/player3/server21hlb.php?vid=FRECNTRYT01EP08', 8);
         addEpisode('https://sinalpublico.com/player3/server21hlb.php?vid=FRECNTRYT01EP09', 9);
         addEpisode('https://sinalpublico.com/player3/server21hlb.php?vid=FRECNTRYT01EP10', 10);
-        addEpisode('https://sinalpublico.com/player3/server21hlb.php?vid=FRECNTRYT01EP11', 11);
+        addEpisode('https://sinalpublico.com/player3/server22hlb.php?vid=FRECNTRYT01EP11', 11);
     }
 })
