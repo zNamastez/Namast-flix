@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<!--Configurações-->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="icon" href="/CSS/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="/CSS/favicon.ico" type="image/x-icon">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <!-- Ícone -->
+    <link rel="icon" href="https://znamastez.github.io/Namast-flix/CSS/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://znamastez.github.io/Namast-flix/CSS/favicon.ico" type="image/x-icon">
     <title>Namastêflix</title>
 </head>
 
@@ -18,13 +19,23 @@
     <!--Cabeçalho-->
     <header>
         <h1>NAMASTÊFLIX</h1>
-
     </header>
 
     <!--Área para listar os videos-->
     <main id="Videos">
     </main>
-    <H3></H3>
+
+    <!-- Botão para indicar -->
+    <button id="indicar" onclick="MostrarFormulario()">Indique um filme/série</button>
+
+    <!-- Formulário para indicação -->
+    <div id="formulario">
+        <h2>O que quer indicar?</h2>
+        <input type="text" id="input-indicar">
+        <br>
+        <br>
+        <button type="submit" id="btn-indicar" onclick="SalvarIndicacao()">Enviar Indicação</button>
+    </div>
 
     <!-- JavaScript -->
     <script src="scripts.js"></script>

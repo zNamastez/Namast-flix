@@ -50,3 +50,18 @@ function DisplayVideos() {
 
 /* Chamar a função quando carregar a página */
 window.onload = DisplayVideos()
+
+/* Função para mostrar o formulário */
+function MostrarFormulario() {
+    document.getElementById('formulario').style.display = 'block';
+    document.getElementById('indicar').style.display = 'none'
+}
+
+/* Função para salvar o formulário */
+
+function SalvarIndicacao() {
+    var INDICACAO = document.getElementById('input-indicar').value;
+    document.getElementById('formulario').style.display = 'none';
+    document.getElementById('indicar').style.display = 'block'
+    alert('Voce indicou: ' + INDICACAO)
+}

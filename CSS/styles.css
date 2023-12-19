@@ -31,3 +31,48 @@ header {
     text-align: center;
     color: #FE5000;
 }
+
+#indicar {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #fe3b00;
+    color: #202020;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#formulario {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #fe3b00;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#input-indicar {
+    background-color: #202020;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+#btn-indicar {
+    background-color: #202020;
+    color: white;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
