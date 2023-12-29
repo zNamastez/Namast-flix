@@ -24,8 +24,8 @@ document.getElementById('selecao').addEventListener('change', function () {
     /* TEMPORADAS E EPISODIOS */
     /* TEMPORADA 1 */
     if (TEMPORADA === 'temporada1') {
-        addEpisode('https://sinalpublico.com/player3/server4httphlb.php?vid=THEROKET01EP01', 1);
-        addEpisode('https://sinalpublico.com/player3/server4httphlb.php?vid=THEROKET01EP02', 2);
+        addEpisode('https://drive.google.com/file/d/1WJ7EK6XRuV--l0PdsLWibo9pshUcdqzQ/view?usp=sharing', 1);
+        addEpisode('https://drive.google.com/file/d/1hlSLc1x0UlYVZA_3xLvPB00vQWNNJkzi/view?usp=sharing', 2);
         addEpisode('https://sinalpublico.com/player3/server4httphlb.php?vid=THEROKET01EP03', 3);
         addEpisode('https://sinalpublico.com/player3/server4httphlb.php?vid=THEROKET01EP04', 4);
         addEpisode('https://sinalpublico.com/player3/server4httphlb.php?vid=THEROKET01EP05', 5);
