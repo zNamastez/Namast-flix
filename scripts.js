@@ -22,12 +22,18 @@ const VIDEOSDATA = [
         Titulo: 'O Lobo de Wall Street',
         Imagem: 'https://th.bing.com/th/id/R.5fd274b4c3d71a9ea1f40c1b13ef7520?rik=qKf231rRKUc%2fRA&riu=http%3a%2f%2f2.bp.blogspot.com%2f-gWXOpIuXCLw%2fUzNVCBUVQ3I%2fAAAAAAAAF10%2fNpHk0ssmSSo%2fs1600%2flobo%2bde%2bwall%2bstreet%2bfrente.jpg&ehk=0xtsCOtqNHWiC6cYHmVhIplUWdfEPL8dDMX8wjXHiYA%3d&risl=&pid=ImgRaw&r=0',
     },
+    
+    {
+        /* Halo */
+        Titulo: 'Halo',
+        Imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlmWu16IuD3JVYkoX4E-AsiqpZvHY9yZhUQw&usqp=CAU'
+    },
 
     {
         /* Fire Country */
         Titulo: 'Fire Country',
         Imagem: 'https://th.bing.com/th/id/OIP.9qN-b1dR_eIsIBqtVjGWEAHaKu?rs=1&pid=ImgDetMain',
-    }
+    },
 
 ];
 
