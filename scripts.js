@@ -34,6 +34,12 @@ const VIDEOSDATA = [
         Titulo: 'Fire Country',
         Imagem: 'https://th.bing.com/th/id/OIP.9qN-b1dR_eIsIBqtVjGWEAHaKu?rs=1&pid=ImgDetMain',
     },
+    
+    {
+        /* Feriado Sangrento */
+        Titulo: 'Feriado Sangrento',
+        Imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf3hhCZUzB-CPc0QAvHEcyBcLQhVwTgijWNg&usqp=CAU'
+    },
 
 ];
 
