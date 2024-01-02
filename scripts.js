@@ -36,17 +36,17 @@ const VIDEOSDATA = [
     },
     
     {
-        /* Feriado Sangrento */
-        Titulo: 'Feriado Sangrento',
-        Imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf3hhCZUzB-CPc0QAvHEcyBcLQhVwTgijWNg&usqp=CAU'
-    },
-
-    {
         /* Grey's Anatomy */
         Titulo: "Grey's Anatomy",
         Imagem: 'https://www.google.com.br/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0413573%2F&psig=AOvVaw3XTnN5nywz4dpRDApfwodU&ust=1704301175639000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCxsuOWv4MDFQAAAAAdAAAAABAH'
     },
-
+    
+    {
+        /* Feriado Sangrento */
+        Titulo: 'Feriado Sangrento',
+        Imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf3hhCZUzB-CPc0QAvHEcyBcLQhVwTgijWNg&usqp=CAU'
+    },
+   
 ];
 
 /* Função para exibir o card dos vídoes */
