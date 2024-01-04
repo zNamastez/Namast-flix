@@ -25,6 +25,7 @@ document.getElementById('selecao').addEventListener('change', function () {
     /* TEMPORADA 1 */
     if (TEMPORADA === 'temporada1') {
         addEpisode('https://drive.google.com/file/d/1B6wqQEZRKH6zkV8iX9VAslfrlVY25umN/view', 1);
+        addEpisode('https://drive.google.com/file/d/1NeiIKIuyRn9BkG__qbfrFI2jOLS1uIHj/view?usp=sharing', 2);
 
     }
 })
