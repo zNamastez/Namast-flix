@@ -154,7 +154,10 @@ exibirAvisoSomentePrimeiraVez(`
 Para melhor experiência recomendo a instalação de um adblocker!
 <br>
 <br>
-Se você estiver acessando pelo Pc ou Android: <a href="https://chromewebstore.google.com/detail/adblock-%E2%80%94-o-melhor-bloque/gighmmpiobklfepjocnamgkkbiglidom?utm_source=chrome-ntp-icon" target="_blank" style="text-decoration: none; color: white;">AdBlock</a>
+Se você estiver acessando pelo Pc: <a href="https://chromewebstore.google.com/detail/adblock-%E2%80%94-o-melhor-bloque/gighmmpiobklfepjocnamgkkbiglidom?utm_source=chrome-ntp-icon" target="_blank" style="text-decoration: none; color: white;">AdBlock</a>
+<br>
+<br>
+Se você estiver acessando pelo Android: <a href="https://play.google.com/store/apps/details?id=com.betafish.adblocksbrowser" target="_blank" style="text-decoration: none; color: white;">AdBlock para Samsung Internet</a>
 <br>
 <br>
 Foi mal, não encontrei nenhum pra IOS ;_;
