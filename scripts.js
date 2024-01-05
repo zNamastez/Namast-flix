@@ -133,7 +133,7 @@ function fecharAviso() {
 
 // Função para verificar se a mensagem já foi exibida
 function verificarExibicaoAviso() {
-    return localStorage.getItem('avisosExibido');
+    return localStorage.getItem('avisoExibido');
 }
 
 // Função para marcar a mensagem como exibida
