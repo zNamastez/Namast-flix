@@ -3,50 +3,82 @@ const VIDEOSDATA = [
     {
         /* VIKINGS */
         Titulo: "Vikings",
-        Imagem: 'https://th.bing.com/th/id/R.61c8224e507d2a3f1799b39fdfa68c27?rik=YUNI8qcXcTPUUA&riu=http%3a%2f%2fwww.anarchogeekreview.com%2fwp-content%2fuploads%2f2014%2f02%2f467097-vikings-vikings-poster.jpg&ehk=vU9ikuPT6VjoM%2buEaQuerz1Ti%2f%2bWrj%2bRbg1VCWX4KmU%3d&risl=&pid=ImgRaw&r=0',
+        Imagem: 'https://m.media-amazon.com/images/M/MV5BZWNlZmNiNzItYWMwNC00ODYxLThlNjYtMjU3NzlmNDQxMTY2XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_.jpg',
+        Tipo: 'serie',
+        ID: 'tt2306299'
     },
 
     {
         /* JUJUTSU KAISEN */
         Titulo: "Jujutsu Kaisen",
-        Imagem: 'https://i.redd.it/a21f46syv1n51.jpg',
+        Imagem: 'https://m.media-amazon.com/images/M/MV5BMTMwMDM4N2EtOTJiYy00OTQ0LThlZDYtYWUwOWFlY2IxZGVjXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg',
+        Tipo: 'serie',
+        ID: 'tt12343534'
     },
     {
         /* THE ROOKIE */
         Titulo: 'The Rookie',
-        Imagem: 'https://th.bing.com/th/id/R.3dd57bcba801353cb6a307145bd12e48?rik=AdFg43HpPolDLQ&pid=ImgRaw&r=0',
+        Imagem: 'https://m.media-amazon.com/images/M/MV5BOTY5OWFmMzAtZTIxYi00NGM4LTk3YWMtY2MyYzMwOWVhZWM0XkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_.jpg',
+        Tipo: 'serie',
+        ID: 'tt7587890'
     },
 
     {
         /* O LOBO DE WALL STREET */
         Titulo: 'O Lobo de Wall Street',
-        Imagem: 'https://th.bing.com/th/id/R.5fd274b4c3d71a9ea1f40c1b13ef7520?rik=qKf231rRKUc%2fRA&riu=http%3a%2f%2f2.bp.blogspot.com%2f-gWXOpIuXCLw%2fUzNVCBUVQ3I%2fAAAAAAAAF10%2fNpHk0ssmSSo%2fs1600%2flobo%2bde%2bwall%2bstreet%2bfrente.jpg&ehk=0xtsCOtqNHWiC6cYHmVhIplUWdfEPL8dDMX8wjXHiYA%3d&risl=&pid=ImgRaw&r=0',
+        Imagem: 'https://m.media-amazon.com/images/M/MV5BZTk1Y2ViODktYjc5Mi00MTQwLWI1ZjItODQwYmI1NDQzMDU0XkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_.jpg',
+        Tipo: 'filme',
+        ID: 'tt0993846'
     },
-    
+
     {
         /* Halo */
         Titulo: 'Halo',
-        Imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlmWu16IuD3JVYkoX4E-AsiqpZvHY9yZhUQw&usqp=CAU'
+        Imagem: 'https://m.media-amazon.com/images/M/MV5BYmY5YmJiM2QtNjdhOC00NjRhLTgyNDEtYmM1NmJhNjc5NDE2XkEyXkFqcGdeQXVyMjQ4ODcxNTM@._V1_.jpg',
+        Tipo: 'serie',
+        ID: 'tt2934286'
     },
 
     {
         /* Fire Country */
         Titulo: 'Fire Country',
-        Imagem: 'https://th.bing.com/th/id/OIP.9qN-b1dR_eIsIBqtVjGWEAHaKu?rs=1&pid=ImgDetMain',
+        Imagem: 'https://m.media-amazon.com/images/M/MV5BYTBkZjVlNDItZTM3Mi00MzU2LTk5YzItYjE2MmMzMGVjZDRiXkEyXkFqcGdeQXVyMjYwNDA2MDE@._V1_.jpg',
+        Tipo: 'serie',
+        ID: 'tt16098700'
     },
-    
+
     {
         /* Grey's Anatomy */
         Titulo: "Grey's Anatomy",
-        Imagem: 'https://www.google.com.br/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0413573%2F&psig=AOvVaw3XTnN5nywz4dpRDApfwodU&ust=1704301175639000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCxsuOWv4MDFQAAAAAdAAAAABAH'
+        Imagem: 'https://m.media-amazon.com/images/M/MV5BODA2Mjk0N2MtNGY0Mi00ZWFjLTkxODEtZDFjNDg4ZDliMGVmXkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_.jpg',
+        Tipo: 'serie',
+        ID: 'tt0413573'
     },
-    
+
     {
         /* Feriado Sangrento */
         Titulo: 'Feriado Sangrento',
-        Imagem: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf3hhCZUzB-CPc0QAvHEcyBcLQhVwTgijWNg&usqp=CAU'
+        Imagem: 'https://m.media-amazon.com/images/M/MV5BMzg5YjhjMjUtZjgyYi00YzA1LWI4NjYtNTgyOGNhMTNhNmU5XkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg',
+        Tipo: 'filme',
+        ID: 'tt1448754'
     },
-   
+
+    {
+        /* Game of Thrones */
+        Titulo: 'Game of Thrones',
+        Imagem: 'https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg',
+        Tipo: 'serie',
+        ID: 'tt0944947'
+    },
+
+    {
+        /* Matrix */
+        Titulo: 'Matrix',
+        Imagem: 'https://m.media-amazon.com/images/M/MV5BMzYxZGIyM2MtZDQ0NC00Y2M5LTk0NTAtNDk5ZTg1MjZjMTFiXkEyXkFqcGdeQXVyMTY4MjE1MDA@._V1_.jpg',
+        Tipo: 'filme',
+        ID: 'tt0133093'
+    },
+
 ];
 
 /* Função para exibir o card dos vídoes */
@@ -60,7 +92,7 @@ function DisplayVideos() {
             <h3>${Video.Titulo}</h3>
             <img src="${Video.Imagem}" usemap="#${Video.Titulo}-map" width='350' height='550'>
             <map name="${Video.Titulo}-map">
-                <area target="" alt="" title="" href="Videos/Html/${Video.Titulo}.html" coords="0,7,680,995" shape="rect" >
+                <area target="" alt="" title="" href="https://embed.warezcdn.com/${Video.Tipo}/${Video.ID}" coords="0,7,680,995" shape="rect" >
             </map>`;
         VIDEOSCONTAINER.appendChild(VIDEOCARD);
     });
@@ -83,3 +115,47 @@ function SalvarIndicacao() {
     document.getElementById('indicar').style.display = 'block'
     alert('Voce indicou: ' + INDICACAO)
 }
+
+// Função para exibir o aviso
+function exibirAviso(mensagem) {
+    const avisoContainer = document.getElementById('avisoContainer');
+    const avisoMensagem = document.getElementById('avisoMensagem');
+
+    avisoMensagem.innerHTML = mensagem;
+    avisoContainer.style.display = 'flex';
+}
+
+// Função para fechar o aviso
+function fecharAviso() {
+    const avisoContainer = document.getElementById('avisoContainer');
+    avisoContainer.style.display = 'none';
+}
+
+// Função para verificar se a mensagem já foi exibida
+function verificarExibicaoAviso() {
+    return localStorage.getItem('avisosExibido');
+}
+
+// Função para marcar a mensagem como exibida
+function marcarAvisoExibido() {
+    localStorage.setItem('avisoExibido', 'true');
+}
+
+// Função para exibir o aviso somente se não tiver sido exibido antes
+function exibirAvisoSomentePrimeiraVez(mensagem) {
+    if (!verificarExibicaoAviso()) {
+        exibirAviso(mensagem);
+        marcarAvisoExibido();
+    }
+}
+
+exibirAvisoSomentePrimeiraVez(`
+
+Para melhor experiência recomendo a instalação de um adblocker!
+<br>
+<br>
+Se você estiver acessando pelo Pc ou Android: <a href="https://chromewebstore.google.com/detail/adblock-%E2%80%94-o-melhor-bloque/gighmmpiobklfepjocnamgkkbiglidom?utm_source=chrome-ntp-icon" target="_blank" style="text-decoration: none; color: white;">AdBlock</a>
+<br>
+<br>
+Foi mal, não encontrei nenhum pra IOS ;_;
+`);

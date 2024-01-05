@@ -1,5 +1,7 @@
+<!-- Namastêflix V-0.0.2 -->
 <!DOCTYPE html>
 <html lang="pt-br">
+
 
 <head>
     <meta charset="UTF-8">
@@ -11,6 +13,7 @@
     <!-- Ícone -->
     <link rel="icon" href="https://znamastez.github.io/Namast-flix/CSS/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="https://znamastez.github.io/Namast-flix/CSS/favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Namastêflix</title>
 </head>
 
@@ -22,23 +25,42 @@
     </header>
 
     <!--Área para listar os videos-->
-    <main id="Videos">
+    <main id="Videos" data-aos="fade-up">
     </main>
 
     <!-- Botão para indicar -->
-    <button id="indicar" onclick="MostrarFormulario()">Indique um filme/série</button>
+    <button id="indicar" onclick="MostrarFormulario()" data-aos="fade-up">
+        Indique um filme/série
+    </button>
 
     <!-- Formulário para indicação -->
     <div id="formulario">
-        <h2>O que quer indicar?</h2>
+        <h2>
+            O que quer indicar?
+        </h2>
         <input type="text" id="input-indicar">
         <br>
         <br>
-        <button type="submit" id="btn-indicar" onclick="SalvarIndicacao()">Enviar Indicação</button>
+        <button type="submit" id="btn-indicar" onclick="SalvarIndicacao()">
+            Enviar Indicação
+        </button>
+    </div>
+
+    <!-- Recomendação -->
+    <div class="aviso-container" id="avisoContainer">
+        <div class="aviso">
+            <p id="avisoMensagem"></p>
+            <button onclick="fecharAviso()">Valeu!</button>
+        </div>
+
     </div>
 
     <!-- JavaScript -->
     <script src="scripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
