@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&dislay=swap");
+
+body {
+    background: #000;
+}
+
+.Videos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Videos li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    background: #272727;
+}
+
+.Videos li img {
+    max-width: 300px;
+    border-radius: 12px;
+}
+
+.Videos li h2 {
+    color: #fff;
+    font-size: 1.8em;
+    padding: 15px 10px 0;
+    margin-top: auto;
+    font-family: "Oswald", sans-serif;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+}
+
+.Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* Isso centraliza verticalmente o conteúdo na altura da visualização */
+}
+
+.Search input {
+    /* Ajuste a largura conforme necessário */
+    padding: 10px;
+    /* Adicione preenchimento para melhor aparência */
+    border-radius: 12px;
+    width: 300px;
+    margin-bottom: 15px;
+    color: #272727;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+}
+
+.Search button {
+    background: #000;
+    border: none;
+}
+
+.Search button i {
+    color: #fff;
+    font-size: 40px;
+
+}
