@@ -14,15 +14,26 @@
 </head>
 
 <body>
+
     <header>
         <h1 class="animate__animated animate__zoomInUp">NAMASTÊFLIX</h1>
     </header>
+
     <div class="Search">
         <input type="text" placeholder="Pesquisar" class="animate__animated animate__zoomInUp" id="Searching">
         <button><i class="mdi mdi-magnify animate__animated animate__zoomInUp"></i></button>
     </div>
+
     <div class="Videos animate__animated animate__zoomInUp"></div>
+
+    <div class="aviso-container" id="avisoContainer">
+        <div class="aviso">
+            <p id="avisoMensagem"></p>
+            <button onclick="fecharAviso()">Fechar</button>
+        </div>
+    </div>
     <script src="Main.js" type="module"></script>
+    <script src="OtherFunctions.js"></script>
 </body>
 
 </html>

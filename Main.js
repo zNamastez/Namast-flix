@@ -3,7 +3,6 @@ fetch('https://imdb188.p.rapidapi.com/api/v1/getWeekTop10', {
     "headers": {
         'X-RapidAPI-Key': '0d283ded23msh65bbca24c4af428p198869jsnad57c7989950',
         'X-RapidAPI-Host': 'imdb188.p.rapidapi.com',
-        'Accept-Language': 'pt-BR'
     }
 })
     .then(response => response.json())
@@ -52,7 +51,6 @@ button.addEventListener('click', function () {
         "headers": {
             'X-RapidAPI-Key': '0d283ded23msh65bbca24c4af428p198869jsnad57c7989950',
             'X-RapidAPI-Host': 'imdb188.p.rapidapi.com',
-            'Accept-Language': 'pt-BR'
         }
     })
         .then(response => response.json())
@@ -89,3 +87,4 @@ button.addEventListener('click', function () {
 function clearVideos() {
     document.querySelector('.Videos').innerHTML = ''; // Limpa o conteúdo da div 'Videos'
 }
+
