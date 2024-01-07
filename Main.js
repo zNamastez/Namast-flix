@@ -1,7 +1,7 @@
 fetch('https://imdb188.p.rapidapi.com/api/v1/getWeekTop10', {
     "method": 'GET',
     "headers": {
-        'X-RapidAPI-Key': 'c00c9c77d2mshbf6458e0e945f40p1846d8jsn2199fc579580',
+        'X-RapidAPI-Key': 'cfa1401b74msh5b6aa71d6c9bdacp18b90djsn158f0fbb380f',
         'X-RapidAPI-Host': 'imdb188.p.rapidapi.com',
     }
 })
@@ -49,7 +49,7 @@ button.addEventListener('click', function () {
     fetch('https://imdb188.p.rapidapi.com/api/v1/searchIMDB?query=' + inputValue, {
         "method": 'GET',
         "headers": {
-            'X-RapidAPI-Key': 'c00c9c77d2mshbf6458e0e945f40p1846d8jsn2199fc579580',
+            'X-RapidAPI-Key': 'cfa1401b74msh5b6aa71d6c9bdacp18b90djsn158f0fbb380f',
             'X-RapidAPI-Host': 'imdb188.p.rapidapi.com',
         }
     })
