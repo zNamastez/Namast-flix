@@ -19,7 +19,7 @@ function verificarExibicaoAviso() {
 
 // Função para marcar a mensagem como exibida
 function marcarAvisoExibido() {
-    localStorage.setItem('avisoExibido', 'true');
+    localStorage.setItem('avisoExibido', 'false');
 }
 
 // Função para exibir o aviso somente se não tiver sido exibido antes
@@ -32,6 +32,7 @@ function exibirAvisoSomentePrimeiraVez(mensagem) {
 const AdBlock = '<a href="https://microsoftedge.microsoft.com/addons/detail/adblock-%E2%80%94-o-melhor-bloque/ndcileolkflehcjpmjnfbnaibdcgglog?hl=pt-BR" targer="_blank">AdBlock</a>'
 const AdBlockMobile = '<a href="https://play.google.com/store/apps/details?id=com.betafish.adblocksbrowser&pli=1">AdBlock para Samsung Internet</a>'
 const SamsungInternet = '<a href="https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser">Samsung Internet</a>'
+const AdblockPro = '<a href="https://apps.apple.com/br/app/adblock-pro-bloco-de-an%C3%BAncios/id1018301773">AdbloPro</a>
 
 // Exemplo de uso
 exibirAvisoSomentePrimeiraVez(`Por ser gratuito os players dos videos tem alguns anúncios, mas como o intuito do site é fornecer filmes e séries com a menor quantidade de anúncio possível recomendo a instalação de um adblock para melhor experiência!
@@ -47,4 +48,4 @@ ${SamsungInternet}
 ${AdBlockMobile}
 <br>
 <br>
-Foi mal, não encontrei nenhum pra IOS ;_;`);
+Se estiver acessando pelo IOS: ${AdblockPro}`);
