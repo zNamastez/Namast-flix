@@ -112,3 +112,12 @@ header {
     font-weight: bold;
     color: #000;
 }
+
+.top10 {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
